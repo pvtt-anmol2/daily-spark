@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Daily Spark",
+    "slug": "daily-spark",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#1a1a2e"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anmol.dailyspark"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.anmol.dailyspark"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "06c674b6-518b-47d0-beb0-5c68846f4485"
+      }
+    },
+    "owner": "pvtt_anmol2"
+  }
+}
