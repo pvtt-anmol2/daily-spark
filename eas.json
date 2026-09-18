@@ -9,7 +9,10 @@
       "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "EAS_USE_CACHE": "0"
+      }
     },
     "production": {
       "autoIncrement": true
